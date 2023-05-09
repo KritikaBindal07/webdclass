@@ -1,0 +1,69 @@
+.img{
+    display:flex;
+    float:right ;
+    margin-right:100px;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQElSRH4c9PrmKZNlaY969j4v0MirUO4J2VPbCX15A6Eg&usqp=CAU&ec=48665698 " ); */
+    background-repeat:no-repeat;
+    clip-path: circle(50% at 50% 50%);
+   
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThXr9AVx-G9mf4w5KbKfLoqIkTNaXMaNtSv82201U8TA&usqp=CAU&ec=48665698");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+p{
+    color: aliceblue;
+    font-size: x-large;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+
+a{
+    font-size: x-large;
+    
+    color:rgb(49, 40, 25);
+}
+a:hover{
+    color:red;
+    text-decoration: none;
+}
+.para{
+    color:blanchedalmond;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.button{
+    border-radius: 40%;
+    font-size: larger;
+    background-color:cadetblue;
+    margin-left: 40px;
+    
+   
+
+}
+button:hover{
+    cursor: pointer;
+    background-color:cadetblue;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.about{
+    margin-left: 40%;
+    font-size: larger;
+    background-color: antiquewhite;
+    color: black;
+}
+
+h1{
+    color: blanchedalmond;
+}
